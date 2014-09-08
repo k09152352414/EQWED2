@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.tracer_app2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MAIN"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FIRSTFLOOR"
+            android:label="@string/title_activity_firstfloor" >
+        </activity>
+        <activity
+            android:name=".SECONDFLOOR"
+            android:label="@string/title_activity_secondfloor" >
+        </activity>
+        <activity
+            android:name=".FOURTHFLOOR"
+            android:label="@string/title_activity_fourthfloor" >
+        </activity>
+        <activity
+            android:name=".FIFTHFLOOR"
+            android:label="@string/title_activity_fifthfloor" >
+        </activity>
+        <activity
+            android:name=".PHYSLAB"
+            android:label="@string/title_activity_physlab" >
+        </activity>
+        <activity
+            android:name=".PHYSLABMON"
+            android:label="@string/title_activity_physlabmon" >
+        </activity>
+        <activity
+            android:name=".SAVE"
+            android:label="@string/title_activity_save" >
+        </activity>
+        <activity
+            android:name=".AVAILABLE"
+            android:label="@string/title_activity_available" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTUES"
+            android:label="@string/title_activity_physlabtues" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTUESSCHED1"
+            android:label="@string/title_activity_physlabtuessched1" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTUESSCHED2"
+            android:label="@string/title_activity_physlabtuessched2" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTUESSCHED3"
+            android:label="@string/title_activity_physlabtuessched3" >
+        </activity>
+        <activity
+            android:name=".PHYSLABWED"
+            android:label="@string/title_activity_physlabwed" >
+        </activity>
+        <activity
+            android:name=".PHYSLABWEDSCHED1"
+            android:label="@string/title_activity_physlabwedsched1" >
+        </activity>
+        <activity
+            android:name=".PHYSLABWEDSCHED2"
+            android:label="@string/title_activity_physlabwedsched2" >
+        </activity>
+        <activity
+            android:name=".PHYSLABWEDSCHED3"
+            android:label="@string/title_activity_physlabwedsched3" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTHURS"
+            android:label="@string/title_activity_physlabthurs" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTHURSSCHED1"
+            android:label="@string/title_activity_physlabthurssched1" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTHURSSCHED2"
+            android:label="@string/title_activity_physlabthurssched2" >
+        </activity>
+        <activity
+            android:name=".PHYSLABTHURSSCHED3"
+            android:label="@string/title_activity_physlabthurssched3" >
+        </activity>
+        <activity
+            android:name=".PHYSLABFRI"
+            android:label="@string/title_activity_physlabfri" >
+        </activity>
+        <activity
+            android:name=".PHYSLABFRISCHED1"
+            android:label="@string/title_activity_physlabfrisched1" >
+        </activity>
+        <activity
+            android:name=".PHYSLABFRISCHED2"
+            android:label="@string/title_activity_physlabfrisched2" >
+        </activity>
+        <activity
+            android:name=".PHYSLABFRISCHED3"
+            android:label="@string/title_activity_physlabfrisched3" >
+        </activity>
+        <activity
+            android:name=".PHYSLABSAT"
+            android:label="@string/title_activity_physlabsat" >
+        </activity>
+        <activity
+            android:name=".ROOM314"
+            android:label="@string/title_activity_room314" >
+        </activity>
+        <activity
+            android:name=".ROOM314MON"
+            android:label="@string/title_activity_room314_mon" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED1"
+            android:label="@string/title_activity_room314_monsched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED2"
+            android:label="@string/title_activity_room314_monsched2" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED3"
+            android:label="@string/title_activity_room314_monsched3" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED4"
+            android:label="@string/title_activity_room314_monsched4" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED5"
+            android:label="@string/title_activity_room314_monsched5" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED6"
+            android:label="@string/title_activity_room314_monsched6" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED7"
+            android:label="@string/title_activity_room314_monsched7" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED8"
+            android:label="@string/title_activity_room314_monsched8" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED9"
+            android:label="@string/title_activity_room314_monsched9" >
+        </activity>
+        <activity
+            android:name=".ROOM314MONSCHED10"
+            android:label="@string/title_activity_room314_monsched10" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUES"
+            android:label="@string/title_activity_room314_tues" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUESSCHED1"
+            android:label="@string/title_activity_room314_tuessched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUESSCHED2"
+            android:label="@string/title_activity_room314_tuessched2" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUESSCHED3"
+            android:label="@string/title_activity_room314_tuessched3" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUESSCHED4"
+            android:label="@string/title_activity_room314_tuessched4" >
+        </activity>
+        <activity
+            android:name=".ROOM314TUESSCHED5"
+            android:label="@string/title_activity_room314_tuessched5" >
+        </activity>
+        <activity
+            android:name=".ROOM314WED"
+            android:label="@string/title_activity_room314_wed" >
+        </activity>
+        <activity
+            android:name=".ROOM314WEDSCHED1"
+            android:label="@string/title_activity_room314_wedsched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURS"
+            android:label="@string/title_activity_room314_thurs" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURSSCHED1"
+            android:label="@string/title_activity_room314_thurssched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURSSCHED2"
+            android:label="@string/title_activity_room314_thurssched2" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURSSCHED3"
+            android:label="@string/title_activity_room314_thurssched3" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURSSCHED4"
+            android:label="@string/title_activity_room314_thurssched4" >
+        </activity>
+        <activity
+            android:name=".ROOM314THURSSCHED5"
+            android:label="@string/title_activity_room314_thurssched5" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRI"
+            android:label="@string/title_activity_room314_fri" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED1"
+            android:label="@string/title_activity_room314_frisched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED2"
+            android:label="@string/title_activity_room314_frisched2" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED3"
+            android:label="@string/title_activity_room314_frisched3" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED4"
+            android:label="@string/title_activity_room314_frisched4" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED5"
+            android:label="@string/title_activity_room314_frisched5" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED6"
+            android:label="@string/title_activity_room314_frisched6" >
+        </activity>
+        <activity
+            android:name=".ROOM314FRISCHED7"
+            android:label="@string/title_activity_room314_frisched7" >
+        </activity>
+        <activity
+            android:name=".ROOM314SAT"
+            android:label="@string/title_activity_room314_sat" >
+        </activity>
+        <activity
+            android:name=".ROOM314SATSCHED1"
+            android:label="@string/title_activity_room314_satsched1" >
+        </activity>
+        <activity
+            android:name=".ROOM314SATSCHED2"
+            android:label="@string/title_activity_room314_satsched2" >
+        </activity>
+        <activity
+            android:name=".ROOM314SATSCHED3"
+            android:label="@string/title_activity_room314_satsched3" >
+        </activity>
+        <activity
+            android:name=".ROOM314SATSCHED4"
+            android:label="@string/title_activity_room314_satsched4" >
+        </activity>
+        <activity
+            android:name=".ROOM314SATSCHED5"
+            android:label="@string/title_activity_room314_satsched5" >
+        </activity>
+        <activity
+            android:name=".ICSL1"
+            android:label="@string/title_activity_icsl1" >
+        </activity>
+        <activity
+            android:name=".ICSL2"
+            android:label="@string/title_activity_icsl2" >
+        </activity>
+        <activity
+            android:name=".ICSL3"
+            android:label="@string/title_activity_icsl3" >
+        </activity>
+        <activity
+            android:name=".ICSL4"
+            android:label="@string/title_activity_icsl4" >
+        </activity>
+        <activity
+            android:name=".ITLAB"
+            android:label="@string/title_activity_itlab" >
+        </activity>
+        <activity
+            android:name=".ROOM45"
+            android:label="@string/title_activity_room45" >
+        </activity>
+        <activity
+            android:name=".ROOM46"
+            android:label="@string/title_activity_room46" >
+        </activity>
+        <activity
+            android:name=".ROOM47"
+            android:label="@string/title_activity_room47" >
+        </activity>
+        <activity
+            android:name=".ROOM48"
+            android:label="@string/title_activity_room48" >
+        </activity>
+        <activity
+            android:name=".ROOM49"
+            android:label="@string/title_activity_room49" >
+        </activity>
+        <activity
+            android:name=".ROOM50"
+            android:label="@string/title_activity_room50" >
+        </activity>
+        <activity
+            android:name=".ROOM52"
+            android:label="@string/title_activity_room52" >
+        </activity>
+        <activity
+            android:name=".ROOM53"
+            android:label="@string/title_activity_room53" >
+        </activity>
+        <activity
+            android:name=".ROOM54"
+            android:label="@string/title_activity_room54" >
+        </activity>
+        <activity
+            android:name=".ROOM56"
+            android:label="@string/title_activity_room56" >
+        </activity>
+        <activity
+            android:name=".ROOM57"
+            android:label="@string/title_activity_room57" >
+        </activity>
+        <activity
+            android:name=".ROOM58"
+            android:label="@string/title_activity_room58" >
+        </activity>
+        <activity
+            android:name=".ROOM55"
+            android:label="@string/title_activity_room55" >
+        </activity>
+        <activity
+            android:name=".ICSL1MON"
+            android:label="@string/title_activity_icsl1_mon" >
+        </activity>
+        <activity
+            android:name=".ICSL1MONSCHED1"
+            android:label="@string/title_activity_icsl1_monsched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1MONSCHED2"
+            android:label="@string/title_activity_icsl1_monsched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1TUES"
+            android:label="@string/title_activity_icsl1_tues" >
+        </activity>
+        <activity
+            android:name=".ICSL1TUESSCHED1"
+            android:label="@string/title_activity_icsl1_tuessched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1TUESSCHED2"
+            android:label="@string/title_activity_icsl1_tuessched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1WED"
+            android:label="@string/title_activity_icsl1_wed" >
+        </activity>
+        <activity
+            android:name=".ICLS1WEDSCHED1"
+            android:label="@string/title_activity_icls1_wedsched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED2"
+            android:label="@string/title_activity_icsl1_wedsched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED3"
+            android:label="@string/title_activity_icsl1_wedsched3" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED4"
+            android:label="@string/title_activity_icsl1_wedsched4" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED5"
+            android:label="@string/title_activity_icsl1_wedsched5" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED7"
+            android:label="@string/title_activity_icsl1_wedsched7" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED6"
+            android:label="@string/title_activity_icsl1_wedsched6" >
+        </activity>
+        <activity
+            android:name=".ICSL1WEDSCHED8"
+            android:label="@string/title_activity_icsl1_wedsched8" >
+        </activity>
+        <activity
+            android:name=".ICSL1THURS"
+            android:label="@string/title_activity_icsl1_thurs" >
+        </activity>
+        <activity
+            android:name=".ICSL1THURSSCHED1"
+            android:label="@string/title_activity_icsl1_thurssched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1THURSSCHED2"
+            android:label="@string/title_activity_icsl1_thurssched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1THURSSCHED3"
+            android:label="@string/title_activity_icsl1_thurssched3" >
+        </activity>
+        <activity
+            android:name=".ICSL1FRI"
+            android:label="@string/title_activity_icsl1_fri" >
+        </activity>
+        <activity
+            android:name=".ICSL1FRISCHED1"
+            android:label="@string/title_activity_icsl1_frisched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1FRISCHED2"
+            android:label="@string/title_activity_icsl1_frisched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1SAT"
+            android:label="@string/title_activity_icsl1_sat" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED1"
+            android:label="@string/title_activity_icsl1_satsched1" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED2"
+            android:label="@string/title_activity_icsl1_satsched2" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED3"
+            android:label="@string/title_activity_icsl1_satsched3" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED4"
+            android:label="@string/title_activity_icsl1_satsched4" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED5"
+            android:label="@string/title_activity_icsl1_satsched5" >
+        </activity>
+        <activity
+            android:name=".ICSL1SATSCHED6"
+            android:label="@string/title_activity_icsl1_satsched6" >
+        </activity>
+        <activity
+            android:name=".RESERVED"
+            android:label="@string/title_activity_reserved" >
+        </activity>
+        <activity
+            android:name=".ICSL2MON"
+            android:label="@string/title_activity_icsl2_mon" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED1"
+            android:label="@string/title_activity_icsl2_monsched1" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED2"
+            android:label="@string/title_activity_icsl2_monsched2" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED3"
+            android:label="@string/title_activity_icsl2_monsched3" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED4"
+            android:label="@string/title_activity_icsl2_monsched4" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED5"
+            android:label="@string/title_activity_icsl2_monsched5" >
+        </activity>
+        <activity
+            android:name=".ICSL2MONSCHED6"
+            android:label="@string/title_activity_icsl2_monsched6" >
+        </activity>
+        <activity
+            android:name=".ICSL2TUES"
+            android:label="@string/title_activity_icsl2_tues" >
+        </activity>
+        <activity
+            android:name=".ICSL2TUESSCHED1"
+            android:label="@string/title_activity_icsl2_tuessched1" >
+        </activity>
+        <activity
+            android:name=".ICSL2TUESRESERVE1"
+            android:label="@string/title_activity_icsl2_tuesreserve1" >
+        </activity>
+    </application>
+
+</manifest>
