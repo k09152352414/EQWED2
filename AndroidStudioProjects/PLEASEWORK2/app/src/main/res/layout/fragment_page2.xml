@@ -1,0 +1,85 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im1"
+            android:layout_gravity="left|top"
+            android:background="@drawable/bonchon"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im2"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/mcdo"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im3"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/rbx"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im4"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/chicken"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im5"
+            android:layout_gravity="center"
+            android:background="@drawable/greenwich"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im6"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/house"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im7"
+            android:layout_gravity="right|top"
+            android:background="@drawable/seven"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=" "
+            android:id="@+id/im8"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/tokyo"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAIN MENU"
+            android:id="@+id/im9"
+            android:layout_gravity="right|bottom"
+            />
+    </FrameLayout>
+</RelativeLayout>

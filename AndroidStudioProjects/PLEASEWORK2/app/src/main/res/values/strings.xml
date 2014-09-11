@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLEASEWORK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_page2">Page2</string>
+    <string name="title_activity_page3a">Page3a</string>
+    <string name="title_activity_page3b">Page3b</string>
+    <string name="title_activity_page3c">Page3c</string>
+    <string name="title_activity_page3d">Page3d</string>
+    <string name="title_activity_pagee">Pagee</string>
+    <string name="title_activity_pagef">Pagef</string>
+    <string name="title_activity_pageg">Pageg</string>
+    <string name="title_activity_pageh">Pageh</string>
+    <string name="title_activity_pagei">Pagei</string>
+
+</resources>
